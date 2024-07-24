@@ -95,6 +95,8 @@ public class NewMain2 {
         System.out.println("Author: " + anotherBook.getAuthor().getName());
     }
 }
+
+// keep it and remove other code
     public class Main {
     public static void main(String[] args) {
         // Create a Library object
@@ -120,6 +122,11 @@ public class NewMain2 {
 
         // Print the authors
         System.out.println("Authors:");
+
+       /*
+       // make method in library classs
+              
+       */
         for (Author author : library.authors) {
             System.out.println("Author ID: " + author.getId());
             System.out.println("Author Name: " + author.getName());
@@ -130,6 +137,10 @@ public class NewMain2 {
 
         // Print the books
         System.out.println("Books:");
+        /*
+       // make method in library classs
+              
+       */
         for (Book book : library.books) {
             System.out.println("Book ID: " + book.getId());
             System.out.println("Book Title: " + book.getTitle());
@@ -148,6 +159,10 @@ public class NewMain2 {
 
         // Print the books again
         System.out.println("Books after removing Book ID 2:");
+         /*
+       // make method in library classs
+              
+       */
         for (Book book : library.books) {
             System.out.println("Book ID: " + book.getId());
             System.out.println("Book Title: " + book.getTitle());
